@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+DE+Grund:wght@100..400&display=swap');
+
+
+*{
+    font-family: "Playwrite DE Grund", cursive;
+    font-optical-sizing: auto;
+    font-style: normal;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    /* border: solid 1px red; */
+}
+
+body {
+    background-color: #003a65;
+}
+
+/* Header Styling */
+
+header {
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 70px;
+    background-color: #003a65;
+    padding: 15px 40px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    overflow: hidden;
+    gap: 20px;
+}
+
+header img {
+    height: auto;
+    width: 60px;
+}
+
+.menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.menu-item {
+    margin-left: 20px;
+}
+
+.menu-item a {
+    text-decoration: none;
+    color: #3d7aab;
+    font-size: 1.2rem;
+}
+
+.menu-item:last-child {
+    margin-right: 0;
+}
+
+.menu-item a:hover {
+    color: #fff;
+}
+
+#active {
+    color: #fff;
+}
+
+section.classes {
+    margin-top: calc(70px + 30px);
+    height: 660px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+div.class {
+    padding: 0 20px 0 20px;
+    height: 300px;
+    width: 90%;
+    background-color: #3d7aab;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    margin-bottom: 30px;
+}
+
+div.spacer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    flex-direction: row;
+}
+
+a {
+    text-decoration: none;
+    font-weight: lighter;
+    font-size: 1.2rem;
+    color: #fff;
+}
+
+.classInfo {
+    padding: 20px;
+}
+
+.classInfo h1 {
+    font-weight: bolder;
+    font-size: 2rem;
+    color: #fff;
+}
+
+.classInfo p {
+    font-weight: lighter;
+    font-size: 1.2rem;
+    color: #fff;
+}
+
+img {
+    height: auto;
+    width: 400px;
+}
+
+div.class a{
+    position: relative;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    background: #fff;
+    border: .2rem solid #fff;
+    border-radius: 50%;
+    font-size: 40px;
+    color:#3d7aab;
+    z-index: 1;
+    overflow: hidden;
+}
+
+
