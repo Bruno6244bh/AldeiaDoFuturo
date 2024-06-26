@@ -175,6 +175,12 @@ header img {
     color: #fff;
 }
 
+#active {
+    color: #fff;
+}
+
+/* Content styling */
+
 section.home {
     margin-top: 155px;
     width: 100%;
@@ -204,5 +210,5 @@ section.home {
 
 .content h2 {
     font-weight: bolder;
-    color: #3d7aab
+    color: #fff
 }
