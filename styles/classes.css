@@ -121,7 +121,7 @@ a {
 
 .classInfo p {
     font-weight: lighter;
-    font-size: 1.2rem;
+    font-size: 1.3rem;
     color: #fff;
 }
 
@@ -144,6 +144,43 @@ div.class a{
     color:#3d7aab;
     z-index: 1;
     overflow: hidden;
+}
+
+
+@media screen and (max-width: 2100px) {
+
+    div.class {
+        width: 75%;  
+    }
+    img {
+        width: 300px;
+    }
+    .classInfo {
+        width: 70%;
+    }
+}
+
+@media screen and (max-width: 1300px) {
+
+    img {
+        width: 250px;
+    }
+    .classInfo h1 {
+        font-size: 1.5rem;
+ 
+    }
+    
+    .classInfo p {
+        font-size: 1rem;
+
+    }
+    div.class a{
+
+        width: 35px;
+        height: 35px;
+        font-size: 20px;
+    }
+
 }
 
 
